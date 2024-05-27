@@ -83,7 +83,7 @@
             // searchReplaceToolStripMenuItem
             // 
             this.searchReplaceToolStripMenuItem.Name = "searchReplaceToolStripMenuItem";
-            this.searchReplaceToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.searchReplaceToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.searchReplaceToolStripMenuItem.Text = "Search and Replace";
             this.searchReplaceToolStripMenuItem.Click += new System.EventHandler(this.searchReplaceToolStripMenuItem_Click);
             // 
@@ -104,7 +104,9 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.richTextBox1.Location = new System.Drawing.Point(0, 24);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(800, 426);
