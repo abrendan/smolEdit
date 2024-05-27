@@ -48,12 +48,17 @@ namespace V_EditorPro
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"V_EditorPro\nVersion 1.0\nOS: {RuntimeInformation.OSDescription}", "About");
+            using (var aboutWindow = new AboutForm())
+            {
+                aboutWindow.ShowDialog();
+            }
         }
 
         private void OpenFile()
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text Files (*.txt)|*.txt|Markdown Files (*.md)|*.md|Batch Files (*.bat)|*.bat|All Files (*.*)|*.*";
+
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 richTextBox1.Text = File.ReadAllText(openFileDialog.FileName);
@@ -64,6 +69,10 @@ namespace V_EditorPro
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.FileName = $"{DateTime.Now.ToString("yyyy-MM-dd")}.txt";
+            saveFileDialog.Filter = "Text Files (*.txt)|*.txt|Markdown Files (*.md)|*.md|Batch Files (*.bat)|*.bat|All Files (*.*)|*.*";
+            saveFileDialog.DefaultExt = "txt";
+            saveFileDialog.FilterIndex = 1;
+
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 File.WriteAllText(saveFileDialog.FileName, richTextBox1.Text);
