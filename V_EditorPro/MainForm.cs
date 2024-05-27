@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
@@ -12,6 +13,7 @@ namespace V_EditorPro
             InitializeComponent();
             this.KeyPreview = true;
             this.KeyDown += new KeyEventHandler(MainForm_KeyDown);
+            this.Icon = new Icon("..\\..\\Veditorproicon.ico");
         }
 
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
