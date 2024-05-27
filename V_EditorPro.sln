@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V_EditorPro", "V_EditorPro\V_EditorPro.csproj", "{640BD762-E2CC-4EFD-8748-80AE809CB5F3}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "V_EditorProSetup", "V_EditorProSetup\V_EditorProSetup.vdproj", "{3901B8F5-A3B7-4E59-847C-B05348053D27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{640BD762-E2CC-4EFD-8748-80AE809CB5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{640BD762-E2CC-4EFD-8748-80AE809CB5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{640BD762-E2CC-4EFD-8748-80AE809CB5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3901B8F5-A3B7-4E59-847C-B05348053D27}.Debug|Any CPU.ActiveCfg = Debug
+		{3901B8F5-A3B7-4E59-847C-B05348053D27}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

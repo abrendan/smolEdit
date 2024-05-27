@@ -44,6 +44,7 @@ namespace V_EditorPro
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SearchReplaceDialog));
             this.txtFind = new System.Windows.Forms.TextBox();
             this.txtReplace = new System.Windows.Forms.TextBox();
             this.btnFindNext = new System.Windows.Forms.Button();
@@ -103,10 +104,13 @@ namespace V_EditorPro
             this.Controls.Add(this.btnFindNext);
             this.Controls.Add(this.txtReplace);
             this.Controls.Add(this.txtFind);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SearchReplaceDialog";
-            this.Text = "SearchReplaceDialog";
+            this.Text = "Search and Replace";
+            this.Load += new System.EventHandler(this.SearchReplaceDialog_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         private System.Windows.Forms.TextBox txtFind;
@@ -114,5 +118,10 @@ namespace V_EditorPro
         private System.Windows.Forms.Button btnFindNext;
         private System.Windows.Forms.Button btnReplace;
         private System.Windows.Forms.Button btnReplaceAll;
+
+        private void SearchReplaceDialog_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

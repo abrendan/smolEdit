@@ -11,8 +11,13 @@ namespace V_EditorPro
         public AboutForm()
         {
             InitializeComponent();
-            this.Icon = new Icon("..\\..\\Veditorproicon.ico");
+
             label1.Text = $"V_EditorPro\nVersion 1.0\nOS: {RuntimeInformation.OSDescription}";
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

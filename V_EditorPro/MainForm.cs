@@ -13,7 +13,6 @@ namespace V_EditorPro
             InitializeComponent();
             this.KeyPreview = true;
             this.KeyDown += new KeyEventHandler(MainForm_KeyDown);
-            this.Icon = new Icon("..\\..\\Veditorproicon.ico");
         }
 
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
