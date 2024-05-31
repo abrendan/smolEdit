@@ -12,7 +12,7 @@ namespace V_EditorPro
         {
             InitializeComponent();
 
-            label1.Text = $"V_EditorPro\nVersion 1.0\nOS: {RuntimeInformation.OSDescription}";
+            label1.Text = $"V_EditorPro\nVersion 1.1\nOS: {RuntimeInformation.OSDescription}";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

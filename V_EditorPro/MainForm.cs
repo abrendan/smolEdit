@@ -8,12 +8,18 @@ namespace V_EditorPro
 {
     public partial class MainForm : Form
     {
-        public MainForm()
+        public MainForm(string filePath = null)
         {
             InitializeComponent();
             this.KeyPreview = true;
             this.KeyDown += new KeyEventHandler(MainForm_KeyDown);
+
+            if (!string.IsNullOrEmpty(filePath))
+            {
+                OpenFile(filePath);
+            }
         }
+
 
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
         {
@@ -53,6 +59,11 @@ namespace V_EditorPro
             }
         }
 
+        private void OpenFile(string filePath)
+        {
+            richTextBox1.Text = File.ReadAllText(filePath);
+        }
+
         private void OpenFile()
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -60,7 +71,7 @@ namespace V_EditorPro
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                richTextBox1.Text = File.ReadAllText(openFileDialog.FileName);
+                OpenFile(openFileDialog.FileName);
             }
         }
 
