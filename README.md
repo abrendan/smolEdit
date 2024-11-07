@@ -1,4 +1,4 @@
-# V_EditorPro
+# smolEdit
 
 This is a simple pre-Windows 11 notepad clone written in .NET 4.8.
 
