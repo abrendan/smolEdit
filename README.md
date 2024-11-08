@@ -2,7 +2,7 @@
 
 This is a simple pre-Windows 11 notepad clone written in .NET 4.8.
 
-<img src="https://github.com/abrendan/V_EditorPro/assets/94894839/2617e5d4-32cf-435d-83c5-079e90da1901" width="250" height="250">
+<img src="https://github.com/user-attachments/assets/bd957dd9-8fc4-41f5-aeaa-2bf011bb79df" width="250" height="250">
 
 
 
