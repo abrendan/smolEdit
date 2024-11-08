@@ -1,6 +1,6 @@
 # smolEdit
 
-This is a simple pre-Windows 11 notepad clone written in .NET 4.8.
+This is a simple and *smol* pre-Windows 11 notepad clone written in .NET 4.8.
 
 <img src="https://github.com/user-attachments/assets/bd957dd9-8fc4-41f5-aeaa-2bf011bb79df" width="250" height="250">
 
