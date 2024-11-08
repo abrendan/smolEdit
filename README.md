@@ -17,7 +17,8 @@ This is a simple and *smol* pre-Windows 11 notepad clone written in .NET 4.8.
 
 For now I only have tested Windows 11. Windows 10 - Windows 7 should be working fine too though.
 
-![grafik](https://github.com/abrendan/V_EditorPro/assets/94894839/69e46757-cf2d-447e-b680-571dbd113a64)
+![grafik](https://github.com/user-attachments/assets/17aa32a4-6c7f-4816-bf91-650e58413490)
+
 
 ## To be done
 
