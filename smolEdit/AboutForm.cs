@@ -4,7 +4,7 @@ using System.Reflection.Emit;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace V_EditorPro
+namespace smolEdit
 {
     public partial class AboutForm : Form
     {
@@ -12,7 +12,7 @@ namespace V_EditorPro
         {
             InitializeComponent();
 
-            label1.Text = $"V_EditorPro\nVersion 1.1\nOS: {RuntimeInformation.OSDescription}";
+            label1.Text = $"by abrendan\nVersion 1.2\nOS: {RuntimeInformation.OSDescription}";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

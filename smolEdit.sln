@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V_EditorPro", "V_EditorPro\V_EditorPro.csproj", "{640BD762-E2CC-4EFD-8748-80AE809CB5F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smolEdit", "smolEdit\smolEdit.csproj", "{640BD762-E2CC-4EFD-8748-80AE809CB5F3}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "V_EditorProSetup", "V_EditorProSetup\V_EditorProSetup.vdproj", "{3901B8F5-A3B7-4E59-847C-B05348053D27}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "smolEditSetup", "smolEditSetup\smolEditSetup.vdproj", "{1FDAC0D0-BA1D-433A-8FE8-F83EB2BD21F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,10 @@ Global
 		{640BD762-E2CC-4EFD-8748-80AE809CB5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{640BD762-E2CC-4EFD-8748-80AE809CB5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{640BD762-E2CC-4EFD-8748-80AE809CB5F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3901B8F5-A3B7-4E59-847C-B05348053D27}.Debug|Any CPU.ActiveCfg = Debug
-		{3901B8F5-A3B7-4E59-847C-B05348053D27}.Release|Any CPU.ActiveCfg = Release
+		{1FDAC0D0-BA1D-433A-8FE8-F83EB2BD21F1}.Debug|Any CPU.ActiveCfg = Debug
+		{1FDAC0D0-BA1D-433A-8FE8-F83EB2BD21F1}.Debug|Any CPU.Build.0 = Debug
+		{1FDAC0D0-BA1D-433A-8FE8-F83EB2BD21F1}.Release|Any CPU.ActiveCfg = Release
+		{1FDAC0D0-BA1D-433A-8FE8-F83EB2BD21F1}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace V_EditorPro
+namespace smolEdit
 {
     public partial class MainForm : Form
     {
@@ -87,6 +87,11 @@ namespace V_EditorPro
             {
                 File.WriteAllText(saveFileDialog.FileName, richTextBox1.Text);
             }
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

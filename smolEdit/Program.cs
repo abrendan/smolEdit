@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using V_EditorPro;
+using smolEdit;
 
-namespace V_EditorPro
+namespace smolEdit
 {
     internal static class Program
     {

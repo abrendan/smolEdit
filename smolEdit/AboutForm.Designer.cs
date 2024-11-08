@@ -1,4 +1,4 @@
-﻿namespace V_EditorPro
+﻿namespace smolEdit
 {
     partial class AboutForm
     {
@@ -30,18 +30,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 150);
+            this.label1.Location = new System.Drawing.Point(20, 201);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 39);
+            this.label1.Size = new System.Drawing.Size(66, 39);
             this.label1.TabIndex = 0;
-            this.label1.Text = "V_EditorPro\nVersion 1.1\nOS: ";
+            this.label1.Text = "by abrendan\nVersion 1.2\nOS: ";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::V_EditorPro.Properties.Resources.Veditorproicon;
-            this.pictureBox1.Location = new System.Drawing.Point(55, 12);
+            this.pictureBox1.Image = global::smolEdit.Properties.Resources.smolediticonborder;
+            this.pictureBox1.Location = new System.Drawing.Point(30, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -50,15 +50,15 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 130);
+            this.label2.Location = new System.Drawing.Point(20, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(170, 13);
+            this.label2.Size = new System.Drawing.Size(153, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "V_EditorPro is made with .NET 4.8";
+            this.label2.Text = "smolEdit is made with .NET 4.8";
             // 
             // closeButton
             // 
-            this.closeButton.Location = new System.Drawing.Point(65, 216);
+            this.closeButton.Location = new System.Drawing.Point(68, 255);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 3;
@@ -68,7 +68,7 @@
             // 
             // AboutForm
             // 
-            this.ClientSize = new System.Drawing.Size(209, 271);
+            this.ClientSize = new System.Drawing.Size(209, 301);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
@@ -78,7 +78,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AboutForm";
-            this.Text = "About V_EditorPro";
+            this.Text = "About smolEdit";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
